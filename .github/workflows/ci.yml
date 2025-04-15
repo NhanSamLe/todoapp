@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print Hello World and Current Date
+        run: |
+          echo "Hello World"
+          date
