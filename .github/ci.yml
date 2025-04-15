@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print Hello World and Current Date
-      run: |
+      run:
           echo "Hello World"
           date
